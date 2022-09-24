@@ -28,6 +28,10 @@ def use_continue() -> None:
 
 
 def verify_ages(groups: List[List[int]]) -> List[bool]:
+    for groupe  in groups:
+        if len(groupe) <= 3 or len(groupe) > 10:
+            print("Refus")
+        print(groupe)
     return []
 
 
